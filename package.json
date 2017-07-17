@@ -1,0 +1,38 @@
+{
+  "name": "react-rollup-typescript-babel-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate app for integrating RollupJS with React, Typescript and Babel",
+  "scripts": {
+    "build": "SET NODE_ENV=production && rollup -c",
+    "rollup": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "author": "Stefanos Vatsikas",
+  "devDependencies": {
+    "@alexlur/rollup-plugin-typescript": "~1.0.4",
+    "@types/react": "15.0.20",
+    "@types/react-dom": "~0.14.23",
+    "babel-plugin-external-helpers": "~6.22.0",
+    "babel-plugin-transform-object-assign": "~6.22.0",
+    "babel-preset-latest": "~6.24.1",
+    "babel-preset-react": "~6.24.1",
+    "cssnano": "~3.10.0",
+    "postcss-cssnext": "~3.0.2",
+    "postcss-nested": "~2.0.2",
+    "react": "~15.4.2",
+    "react-dom": "~15.4.2",
+    "rollup": "~0.41.6",
+    "rollup-plugin-babel": "~2.7.1",
+    "rollup-plugin-commonjs": "~7.1.0",
+    "rollup-plugin-livereload": "~0.4.0",
+    "rollup-plugin-node-resolve": "~2.0.0",
+    "rollup-plugin-postcss": "~0.5.3",
+    "rollup-plugin-replace": "~1.1.1",
+    "rollup-plugin-serve": "~0.1.0",
+    "rollup-plugin-uglify": "~1.0.1",
+    "rollup-watch": "~3.2.2",
+    "typescript": "~2.4.1"
+  }
+}
+
+
